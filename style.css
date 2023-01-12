@@ -1,0 +1,79 @@
+@font-face {
+    font-family: HappyMonkey-regular;
+    src: url("HappyMonkey-Regular.ttf");
+}
+body{
+    color: plum;
+    background-image: url("image/background.gif");
+    background-size: cover;
+    margin: 0px;
+    font-family: HappyMonkey-regular;
+    text-align: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#profile{
+    border: 5px solid  #EFB0C9;
+    border-radius: 50px;
+    width: 150px;
+}
+#bday-age{
+    color: lightblue;
+    text-shadow: 0 0 4px blue;
+    background-color: #EFB0C9;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 15px 0px 10px 0px;
+
+}
+#bday-date{
+    margin-top: 0px;
+    color: lightblue;
+    text-shadow: 0 0 4px blue;
+    background-color: #EFB0C9;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+.gift-section{
+    margin-top: 40px;
+}
+.gift-img{
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 5px;
+    margin: 0 auto;
+    height: 400px;
+    background-image: url("image/gift-cover.jpg");
+    background-size: cover;
+
+}
+#gift-one:hover{
+    background-image: url("image/bday.gif");
+    background-position: center;
+}
+#gift-two:hover{
+    background-image: url("image/poepleReaction.gif");
+    background-position: center;
+}
+#footer{
+    margin: 10px auto;
+    width: 400px;
+    font-style: italic;
+}
+a{
+    color: plum;
+}
